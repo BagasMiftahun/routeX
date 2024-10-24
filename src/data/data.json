@@ -1,0 +1,34 @@
+{
+  "home": {
+    "title": "Welcome to RouteX",
+    "description": "Your trusted partner for immigration and visa consulting."
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "content": "We are dedicated to providing the best immigration advice."
+  },
+  "story": [
+    {
+      "id": 1,
+      "title": "My Journey",
+      "description": "A story about my immigration journey."
+    },
+    {
+      "id": 2,
+      "title": "Success Story",
+      "description": "A success story of a family we helped."
+    }
+  ],
+  "visa": [
+    {
+      "id": 1,
+      "title": "Tourist Visa",
+      "description": "Information about obtaining a tourist visa."
+    },
+    {
+      "id": 2,
+      "title": "Work Visa",
+      "description": "Details about work visa application process."
+    }
+  ]
+}
