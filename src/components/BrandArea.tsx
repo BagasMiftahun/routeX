@@ -11,14 +11,111 @@ const BrandArea: React.FC = () => {
             <div className="row">
               <div className="col-12">
                 <Swiper
+                  direction="horizontal"
                   className="brand__active wow fadeIn"
                   data-wow-delay=".3s"
                   spaceBetween={5}
-                  slidesPerView={5}
                   slidesOffsetBefore={5}
                   slidesOffsetAfter={5}
                   loop
+                  breakpoints={{
+                    320: {
+                      slidesPerView: 1,
+                    },
+                    480: {
+                      slidesPerView: 2,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                    },
+                    1200: {
+                      slidesPerView: 5,
+                    },
+                  }}
                 >
+                  <SwiperSlide>
+                    <div
+                      className="brand__item text-center  wow fadeIn animated"
+                      data-wow-delay=".1s"
+                    >
+                      <div className="brand__thumb">
+                        <a href="https://segment.com/" target="_blank">
+                          <img
+                            className="img-fluid"
+                            src="assets/imgs/brands/black-brands/black-brand1.png"
+                            alt="image not found"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div
+                      className="brand__item text-center  wow fadeIn animated"
+                      data-wow-delay=".1s"
+                    >
+                      <div className="brand__thumb">
+                        <a href="https://segment.com/" target="_blank">
+                          <img
+                            className="img-fluid"
+                            src="assets/imgs/brands/black-brands/black-brand2.png"
+                            alt="image not found"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div
+                      className="brand__item text-center  wow fadeIn animated"
+                      data-wow-delay=".1s"
+                    >
+                      <div className="brand__thumb">
+                        <a href="https://segment.com/" target="_blank">
+                          <img
+                            className="img-fluid"
+                            src="assets/imgs/brands/black-brands/black-brand3.png"
+                            alt="image not found"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div
+                      className="brand__item text-center  wow fadeIn animated"
+                      data-wow-delay=".1s"
+                    >
+                      <div className="brand__thumb">
+                        <a href="https://segment.com/" target="_blank">
+                          <img
+                            className="img-fluid"
+                            src="assets/imgs/brands/black-brands/black-brand4.png"
+                            alt="image not found"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div
+                      className="brand__item text-center  wow fadeIn animated"
+                      data-wow-delay=".1s"
+                    >
+                      <div className="brand__thumb">
+                        <a href="https://segment.com/" target="_blank">
+                          <img
+                            className="img-fluid"
+                            src="assets/imgs/brands/black-brands/black-brand5.png"
+                            alt="image not found"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </SwiperSlide>
                   <SwiperSlide>
                     <div
                       className="brand__item text-center  wow fadeIn animated"
