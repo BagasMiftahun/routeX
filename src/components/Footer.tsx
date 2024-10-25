@@ -8,7 +8,15 @@ const Footer: React.FC = () => {
       <footer>
         <section
           className="footer__area-common dark-green overflow-hidden position-relative z-1"
-          data-background="assets/imgs/footer/footer1-bg-img.png"
+          style={{
+
+            backgroundImage: 'url("/assets/imgs/footer/footer1-bg-img.png")',
+        
+            backgroundSize: 'cover', // or 'contain'
+        
+            backgroundPosition: 'center' // Adjust as necessary
+        
+          }}
         >
           <div className="footer__border-bottom">
             <div className="container">
@@ -101,16 +109,16 @@ const Footer: React.FC = () => {
                   className="footer__widget footer__widget-item-1 wow fadeInLeft animated"
                   data-wow-delay=".2s"
                 >
-                  <span className="footer__widget-item-1-location">
+                  {/* <span className="footer__widget-item-1-location">
                     <img
                       src="./assets/imgs/footer/footer1-bg-location-img.png"
                       alt="img not found"
                     />
-                  </span>
+                  </span> */}
                   <div className="footer__logo mb-30">
                     <a href="index.html">
                       <img
-                        src="assets/imgs/footer/logo.svg"
+                        src="/assets/imgs/footer/logo.svg"
                         alt="logo not found"
                       />
                     </a>

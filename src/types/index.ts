@@ -21,11 +21,18 @@ export interface Story {
     title: string;
     content: string;
   }
+
+  export interface Brand {
+    id: number;
+    image: string;
+    link: string;
+  }
   
   export interface Data {
     home: HomeData;
     aboutUs: AboutData;
     story: Story[];
     visa: Visa[];
+    brands: Brand[];
   }
   

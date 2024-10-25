@@ -14,7 +14,7 @@ const Header: React.FC = () => {
                 <div className="offcanvas__logo">
                   <a href="index.html">
                     <img
-                      src="assets/imgs/logo/offcanvas-logo.png"
+                      src="/assets/imgs/logo/offcanvas-logo.png"
                       alt="logo not found"
                     />
                   </a>
@@ -85,7 +85,7 @@ const Header: React.FC = () => {
                     <a href="index.html">
                       <div className="logo">
                         <img
-                          src="assets/imgs/logo/logo.svg"
+                          src="/assets/imgs/logo/logo.svg"
                           alt="logo not found"
                         />
                       </div>
