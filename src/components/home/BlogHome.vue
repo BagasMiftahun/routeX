@@ -41,13 +41,13 @@
             <div class="section-slider-title-3-button">
               <button
                 class="section-slider-title-3-button-right blog__slider-button-prev wow fadeInLeft animated"
-                data-wow-delay=".4s"
+                data-wow-delay=".4s" @click="goToPrevSlide"
               >
                 <i class="fa-solid fa-arrow-left"></i>
               </button>
               <button
                 class="section-slider-title-3-button-right blog__slider-button-next wow fadeInLeft animated"
-                data-wow-delay=".5s"
+                data-wow-delay=".5s" @click="goToNextSlide"
               >
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
@@ -58,10 +58,9 @@
       <div class="row mb-minus-30">
         <div class="col-12">
           <div class="latest-blog__item">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div
-                  class="swiper-slide latest-blog__item-slide mb-30 wow fadeInLeft animated"
+            <swiper class="mySwiper" :slides-per-view="3" :space-between="30" :loop="true" @swiper="onSwiper">
+                <swiper-slide
+                  class=" latest-blog__item-slide mb-30 wow fadeInLeft animated"
                   data-wow-delay=".2s"
                 >
                   <div class="latest-blog__item-slide-inner">
@@ -107,10 +106,10 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
-                  class="swiper-slide latest-blog__item-slide mb-30 wow fadeInLeft animated"
+                <swiper-slide
+                  class=" latest-blog__item-slide mb-30 wow fadeInLeft animated"
                   data-wow-delay=".3s"
                 >
                   <div class="latest-blog__item-media">
@@ -155,10 +154,10 @@
                       ></a>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
-                  class="swiper-slide latest-blog__item-slide mb-30 wow fadeInLeft animated"
+                <swiper-slide
+                  class=" latest-blog__item-slide mb-30 wow fadeInLeft animated"
                   data-wow-delay=".4s"
                 >
                   <div class="latest-blog__item-media">
@@ -200,10 +199,10 @@
                       ></a>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
-                  class="swiper-slide latest-blog__item-slide mb-30 wow fadeInLeft animated"
+                <swiper-slide
+                  class=" latest-blog__item-slide mb-30 wow fadeInLeft animated"
                   data-wow-delay=".2s"
                 >
                   <div class="latest-blog__item-media">
@@ -247,10 +246,10 @@
                       ></a>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
-                  class="swiper-slide latest-blog__item-slide mb-30 wow fadeInLeft animated"
+                <swiper-slide
+                  class=" latest-blog__item-slide mb-30 wow fadeInLeft animated"
                   data-wow-delay=".3s"
                 >
                   <div class="latest-blog__item-media">
@@ -295,10 +294,10 @@
                       ></a>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
-                  class="swiper-slide latest-blog__item-slide mb-30 wow fadeInLeft animated"
+                <swiper-slide
+                  class=" latest-blog__item-slide mb-30 wow fadeInLeft animated"
                   data-wow-delay=".4s"
                 >
                   <div class="latest-blog__item-media">
@@ -340,9 +339,8 @@
                       ></a>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
+                </swiper-slide>
+            </swiper>
           </div>
         </div>
       </div>
@@ -351,8 +349,34 @@
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+
 export default {
   name: "BlogHome",
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  data() {
+    return {
+      swiperInstance: null,
+    };
+  },
+  methods: {
+    onSwiper(swiper) {
+      this.swiperInstance = swiper;
+    },
+    goToPrevSlide() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slidePrev();
+      }
+    },
+    goToNextSlide() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slideNext();
+      }
+    },
+  },
 };
 </script>
 

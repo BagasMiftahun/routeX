@@ -51,13 +51,13 @@
             <div class="d-none d-md-block">
               <button
                 class="section-slider-title-button-right mr-15 project__slider-button-prev wow fadeInLeft animated"
-                data-wow-delay=".4s"
+                data-wow-delay=".4s" @click="goToPrevSlide"
               >
                 <i class="fa-solid fa-arrow-left"></i>
               </button>
               <button
                 class="section-slider-title-button-right project__slider-button-next wow fadeInLeft animated"
-                data-wow-delay=".5s"
+                data-wow-delay=".5s" @click="goToNextSlide"
               >
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
@@ -81,9 +81,8 @@
         </div>
 
         <div class="project-row-custom d-none d-md-block">
-          <div class="swiper project-slide slide-height">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide p-relative">
+          <swiper class="project-slide slide-height" :slides-per-view="1" :space-between="30" :loop="true" @swiper="onSwiper">
+              <swiper-slide class="p-relative">
                 <div class="project-three__single">
                   <ul class="slider_hover__item">
                     <li>
@@ -258,8 +257,8 @@
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div class="swiper-slide p-relative">
+              </swiper-slide>
+              <swiper-slide class="p-relative">
                 <div class="project-three__single">
                   <ul class="slider_hover__item">
                     <li>
@@ -275,7 +274,9 @@
                         </div>
                         <div
                           class="project-three__single-img"
-                          :style="{ backgroundImage: `url(${projectImage1})` }"
+                          style="
+                            background-image: url(/assets/imgs/projact/projact-image1.png);
+                          "
                         ></div>
                         <div class="bg-overlay"></div>
 
@@ -431,8 +432,8 @@
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div class="swiper-slide p-relative">
+              </swiper-slide>
+              <swiper-slide class="p-relative">
                 <div class="project-three__single">
                   <ul class="slider_hover__item">
                     <li>
@@ -448,7 +449,9 @@
                         </div>
                         <div
                           class="project-three__single-img"
-                          :style="{ backgroundImage: `url(${projectImage1})` }"
+                          style="
+                            background-image: url(/assets/imgs/projact/projact-image1.png);
+                          "
                         ></div>
                         <div class="bg-overlay"></div>
 
@@ -605,12 +608,11 @@
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
+              </swiper-slide>
+          </swiper>
         </div>
 
-        <div class="project-row-custom-2 d-block d-md-none">
+        <!-- <div class="project-row-custom-2 d-block d-md-none">
           <div class="swiper project-slide-2">
             <div class="swiper-wrapper">
               <div class="swiper-slide p-relative">
@@ -647,15 +649,41 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+
 export default {
   name: "ProjectHome",
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  data() {
+    return {
+      swiperInstance: null,
+    };
+  },
+  methods: {
+    onSwiper(swiper) {
+      this.swiperInstance = swiper;
+    },
+    goToPrevSlide() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slidePrev();
+      }
+    },
+    goToNextSlide() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slideNext();
+      }
+    },
+  },
 };
 </script>
 

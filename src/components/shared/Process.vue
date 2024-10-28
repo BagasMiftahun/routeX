@@ -6,7 +6,7 @@
     >
       <div
         class="process__bg-img"
-        data-background="/assets/imgs/about/process/process-bg.png"
+        style="background-image: url('/assets/imgs/about/process/process-bg.png'); background-size: cover; background-position: center;"
       ></div>
       <div class="container">
         <div class="row">

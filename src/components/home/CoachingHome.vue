@@ -6,7 +6,7 @@
     >
       <div
         class="coaching__bg-img"
-        data-background="/assets/imgs/home-1/coaching/coaching-bg-img.png"
+        style="background-image: url('/assets/imgs/home-1/coaching/coaching-bg-img.png'); background-size: cover; background-position: center;"
       ></div>
       <div class="container">
         <div class="row">

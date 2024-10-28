@@ -51,13 +51,13 @@
             <div class="section-slider-title-2-button">
               <button
                 class="section-slider-title-2-button-right team__slider-button-prev wow fadeInLeft animated"
-                data-wow-delay=".4s"
+                data-wow-delay=".4s" @click="goToPrevSlide"
               >
                 <i class="fa-solid fa-arrow-left"></i>
               </button>
               <button
                 class="section-slider-title-2-button-right team__slider-button-next wow fadeInLeft animated"
-                data-wow-delay=".5s"
+                data-wow-delay=".5s" @click="goToNextSlide"
               >
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
@@ -69,10 +69,11 @@
       <div class="row p-relative mb-minus-30">
         <div class="col-12">
           <div class="latest-team__item margin-minus-400 mb-30">
-            <div class="swiper card-slide">
-              <div class="swiper-wrapper">
-                <div
-                  class="swiper-slide latest-team__item-slide wow fadeInLeft animated"
+            <swiper class="card-slide" :slides-per-view="3" :space-between="30" :loop="true"
+            @swiper="onSwiper">
+            >
+                <swiper-slide 
+                  class="latest-team__item-slide wow fadeInLeft animated"
                   data-wow-delay=".2s"
                 >
                   <div class="latest-team__item-media">
@@ -100,9 +101,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
+                <swiper-slide
                   class="swiper-slide latest-team__item-slide wow fadeInLeft animated"
                   data-wow-delay=".3s"
                 >
@@ -131,9 +132,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
+                <swiper-slide
                   class="swiper-slide latest-team__item-slide wow fadeInLeft animated"
                   data-wow-delay=".4s"
                 >
@@ -162,9 +163,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
+                <swiper-slide
                   class="swiper-slide latest-team__item-slide wow fadeInLeft animated"
                   data-wow-delay=".2s"
                 >
@@ -193,9 +194,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
+                <swiper-slide
                   class="swiper-slide latest-team__item-slide wow fadeInLeft animated"
                   data-wow-delay=".3s"
                 >
@@ -224,9 +225,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </swiper-slide>
 
-                <div
+                <swiper-slide
                   class="swiper-slide latest-team__item-slide wow fadeInLeft animated"
                   data-wow-delay=".4s"
                 >
@@ -255,9 +256,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
+                </swiper-slide>
+              </swiper>
           </div>
         </div>
       </div>
@@ -266,8 +266,34 @@
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+
 export default {
   name: "TeamHome",
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  data() {
+    return {
+      swiperInstance: null,
+    };
+  },
+  methods: {
+    onSwiper(swiper) {
+      this.swiperInstance = swiper;
+    },
+    goToPrevSlide() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slidePrev();
+      }
+    },
+    goToNextSlide() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slideNext();
+      }
+    },
+  },
 };
 </script>
 
