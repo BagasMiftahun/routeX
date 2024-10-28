@@ -1,22 +1,22 @@
 <template>
   <BannerHome />
   <ServiceHome />
-  <ChooseUs />
-  <Brand />
+  <ChooseUs :hasGrayBg="true" />
+  <BrandHome />
   <ProjectHome />
   <VisaCategory />
   <AdventureHome />
-  <Faq />
+  <Faq :hasGrayBg="true" />
   <TeamHome />
   <CoachingHome />
   <TestimonialHome />
-  <Process />
+  <Process :hasGrayBg="true"/>
   <BlogHome />
 </template>
 
 <script>
 import BannerHome from "../components/home/BannerHome.vue";
-import Brand from "../components/shared/Brand.vue";
+import BrandHome from "../components/home/BrandHome.vue";
 import BlogHome from "../components/home/BlogHome.vue";
 import ChooseUs from "../components/shared/ChooseUs.vue";
 import CoachingHome from "../components/home/CoachingHome.vue";
@@ -33,7 +33,7 @@ export default {
   name: "Home",
   components: {
     BannerHome,
-    Brand,
+    BrandHome,
     BlogHome,
     ChooseUs,
     CoachingHome,

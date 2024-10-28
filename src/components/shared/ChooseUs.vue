@@ -1,7 +1,8 @@
 <template>
   <!--choose-us-section-->
   <section
-    class="section-space-top section-space-bottom-2 overflow-hidden gray-bg"
+    class="section-space-top section-space-bottom-2 overflow-hidden"
+    :class="{ 'gray-bg': hasGrayBg }"
   >
     <div class="choose-us__area">
       <div class="container">
@@ -252,6 +253,12 @@
 <script>
 export default {
   name: "ChooseUs",
+  props: {
+    hasGrayBg: {
+      type: Boolean,
+      default: false, // Default to false so that gray-bg is not applied
+    },
+  },
 };
 </script>
 

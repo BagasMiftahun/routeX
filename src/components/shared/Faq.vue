@@ -1,7 +1,8 @@
 <template>
   <!--faq-->
   <section
-    class="section-space counter gray-bg position-relative overflow-hidden"
+    class="section-space counterposition-relative overflow-hidden"
+    :class="{ 'gray-bg': hasGrayBg }"
   >
     <div class="faq__area">
       <div class="container">
@@ -125,6 +126,12 @@
 <script>
 export default {
   name: "Faq",
+  props: {
+    hasGrayBg: {
+      type: Boolean,
+      default: false, // Default to false so that gray-bg is not applied
+    },
+  },
 };
 </script>
 

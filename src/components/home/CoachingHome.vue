@@ -2,7 +2,7 @@
   <!--coaching section-->
   <section class="section-space-top gray-bg p-relative overflow-hidden">
     <div
-      class="coaching__area white-bg position-relative overflow-hidden section-space-top bottom custom-width border"
+      class="coaching__area white-bg position-relative overflow-hidden section-space-top bottom custom-width border border-1px"
     >
       <div
         class="coaching__bg-img"

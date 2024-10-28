@@ -1,8 +1,8 @@
 <template>
   <!--process-section-->
-  <section class="section-space gray-bg">
+  <section class="section-space" :class="{ 'gray-bg': hasGrayBg }">
     <div
-      class="process__area border section-space-top bottom custom-width p-relative overflow-hidden z-1 white-bg"
+      class="process__area border border-1px section-space-top bottom custom-width p-relative overflow-hidden z-1 white-bg"
     >
       <div
         class="process__bg-img"
@@ -94,6 +94,12 @@
 <script>
 export default {
   name: "Process",
+  props: {
+    hasGrayBg: {
+      type: Boolean,
+      default: false, // Default to false so that gray-bg is not applied
+    },
+  },
 };
 </script>
 
