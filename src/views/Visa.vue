@@ -7,7 +7,7 @@
   
   <script>
   export default {
-    name: 'Visa',
+    name: 'VisaView',
   };
   </script>
   

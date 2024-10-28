@@ -7,7 +7,7 @@
   
   <script>
   export default {
-    name: 'Gallery',
+    name: 'GalleryView',
   };
   </script>
   

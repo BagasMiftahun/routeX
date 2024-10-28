@@ -4,7 +4,7 @@
   <Process />
   <Faq />
   <Brand />
-  <Contact />
+  <Contact hasGrayBg="true" />
   <CountriesAbout />
 </template>
 
@@ -18,7 +18,7 @@ import Contact from '../components/shared/Contact.vue';
 import CountriesAbout from '../components/aboutus/CountriesAbout.vue';
 
 export default {
-  name: 'AboutUs',
+  name: 'AboutUsView',
   components: {
     Banner,
     ChooseUs,

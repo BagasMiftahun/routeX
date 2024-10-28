@@ -7,7 +7,7 @@
   
   <script>
   export default {
-    name: 'Coaching',
+    name: 'CoachingView',
   };
   </script>
   

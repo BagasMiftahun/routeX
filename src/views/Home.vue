@@ -30,7 +30,7 @@ import VisaCategory from "../components/shared/VisaCategory.vue";
 import AdventureHome from "../components/home/AdventureHome.vue";
 
 export default {
-  name: "Home",
+  name: "HomeView",
   components: {
     BannerHome,
     BrandHome,

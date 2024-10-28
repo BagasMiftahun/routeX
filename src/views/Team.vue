@@ -7,7 +7,7 @@
   
   <script>
   export default {
-    name: 'Team',
+    name: 'TeamView',
   };
   </script>
   

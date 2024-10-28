@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
-import AboutUs from '../views/AboutUs.vue';
-import Story from '../views/Story.vue';
-import Blog from '../views/Blog.vue';
-import Visa from '../views/Visa.vue';
-import Contact from '../views/Contact.vue';
+import HomeView from '../views/Home.vue';
+import AboutUsView from '../views/AboutUs.vue';
+import StoryView from '../views/Story.vue';
+import BlogView from '../views/Blog.vue';
+import VisaView from '../views/Visa.vue';
+import ContactView from '../views/Contact.vue';
 import DefaultLayout from '../layouts/DefaultLayout.vue';
-import VisaOffer from '../views/VisaOffer.vue';
-import Gallery from '../views/Gallery.vue';
-import Coaching from '../views/Coaching.vue';
-import Countries from '../views/Countries.vue';
-import Team from '../views/Team.vue';
-import Faq from '../views/Faq.vue';
-import Pricing from '../views/Pricing.vue';
+import VisaOfferView from '../views/VisaOffer.vue';
+import GalleryView from '../views/Gallery.vue';
+import CoachingView from '../views/Coaching.vue';
+import CountriesView from '../views/Countries.vue';
+import TeamView from '../views/Team.vue';
+import FaqView from '../views/Faq.vue';
+import PricingView from '../views/Pricing.vue';
 // Import view lainnya sesuai kebutuhan
 
 const routes = [
@@ -20,19 +20,19 @@ const routes = [
     path: '/',
     component: DefaultLayout,
     children: [
-      { path: '', component: Home },
-      { path: 'about-us', component: AboutUs },
-      { path: 'story', component: Story },
-      { path: 'blog', component: Blog },
-      { path: 'visa', component: Visa },
-      { path: 'visa-offers', component: VisaOffer },
-      { path: 'gallery', component: Gallery },
-      { path: 'coaching', component: Coaching },
-      { path: 'countries', component: Countries },
-      { path: 'team', component: Team },
-      { path: 'faq', component: Faq },
-      { path: 'pricing', component: Pricing },
-      { path: 'contact', component: Contact },
+      { path: '', component: HomeView },
+      { path: 'about-us', component: AboutUsView },
+      { path: 'story', component: StoryView },
+      { path: 'blog', component: BlogView },
+      { path: 'visa', component: VisaView },
+      { path: 'visa-offers', component: VisaOfferView },
+      { path: 'gallery', component: GalleryView },
+      { path: 'coaching', component: CoachingView },
+      { path: 'countries', component: CountriesView },
+      { path: 'team', component: TeamView },
+      { path: 'faq', component: FaqView },
+      { path: 'pricing', component: PricingView },
+      { path: 'contact', component: ContactView },
     ],
   },
 ];

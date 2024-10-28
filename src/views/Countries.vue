@@ -7,7 +7,7 @@
   
   <script>
   export default {
-    name: 'Countries',
+    name: 'CountriesView',
   };
   </script>
   

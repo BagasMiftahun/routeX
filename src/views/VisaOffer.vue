@@ -7,7 +7,7 @@
   
   <script>
   export default {
-    name: 'VisaOffer',
+    name: 'VisaOfferView',
   };
   </script>
   

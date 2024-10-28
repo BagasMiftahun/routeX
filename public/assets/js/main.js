@@ -707,7 +707,6 @@
     });
 
     // Page Scroll Percentage
-    console.log('Custom JS loaded'); // Tambahkan ini
 
     // Page Scroll Percentage
     function scrollTopPercentage() {
@@ -717,8 +716,6 @@
             const calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrollValue = Math.round((scrollTopPos / calcHeight) * 100);
             const scrollElementWrap = $("#scroll-percentage");
-    
-            console.log('Scroll Position:', scrollTopPos, 'Scroll Value:', scrollValue); // Tambahkan ini
     
             scrollElementWrap.css("background", `conic-gradient( var(--rr-theme-primary) ${scrollValue}%, var(--rr-common-white) ${scrollValue}%)`);
             
@@ -741,7 +738,6 @@
     
         // Back to Top
         function scrollToTop() {
-            console.log('Scroll to top initiated'); // Tambahkan ini
             document.documentElement.scrollTo({
                 top: 0,
                 behavior: "smooth"

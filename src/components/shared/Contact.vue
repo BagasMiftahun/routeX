@@ -1,7 +1,8 @@
 <template>
   <!--contact-section-->
   <section
-    class="contact-us__area border bg-gray section-space-top bottom custom-width overflow-hidden"
+    class="contact-us__area border section-space-top bottom custom-width overflow-hidden"
+    :class="{ 'gray-bg': hasGrayBg }"
   >
     <div class="container">
       <div class="row align-items-center">
@@ -157,6 +158,12 @@
 <script>
 export default {
   name: "Contact",
+  props: {
+    hasGrayBg: {
+      type: Boolean,
+      default: false, // Default to false so that gray-bg is not applied
+    },
+  },
 };
 </script>
 
