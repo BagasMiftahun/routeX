@@ -54,7 +54,7 @@
           >
             <div class="visa__item-media">
               <img
-                src="@/assets/imgs/visa/visa-card-image1.png"
+                src="/assets/imgs/visa/visa-card-image1.png"
                 alt="img not found"
               />
             </div>
@@ -71,7 +71,7 @@
                   ><i class="fa-solid fa-arrow-right"></i
                 ></a>
                 <img
-                  src="@/assets/imgs/visa/visa-card-right-icon1.png"
+                  src="/assets/imgs/visa/visa-card-right-icon1.png"
                   alt="img not found"
                 />
               </div>
@@ -85,7 +85,7 @@
           >
             <div class="visa__item-media">
               <img
-                src="@/assets/imgs/visa/visa-card-image2.png"
+                src="/assets/imgs/visa/visa-card-image2.png"
                 alt="img not found"
               />
             </div>
@@ -102,7 +102,7 @@
                   ><i class="fa-solid fa-arrow-right"></i
                 ></a>
                 <img
-                  src="@/assets/imgs/visa/visa-card-right-icon2.png"
+                  src="/assets/imgs/visa/visa-card-right-icon2.png"
                   alt="img not found"
                 />
               </div>
@@ -116,7 +116,7 @@
           >
             <div class="visa__item-media">
               <img
-                src="@/assets/imgs/visa/visa-card-image3.png"
+                src="/assets/imgs/visa/visa-card-image3.png"
                 alt="img not found"
               />
             </div>
@@ -133,7 +133,7 @@
                   ><i class="fa-solid fa-arrow-right"></i
                 ></a>
                 <img
-                  src="@/assets/imgs/visa/visa-card-right-icon3.png"
+                  src="/assets/imgs/visa/visa-card-right-icon3.png"
                   alt="img not found"
                 />
               </div>
@@ -147,7 +147,7 @@
           >
             <div class="visa__item-media">
               <img
-                src="@/assets/imgs/visa/visa-card-image4.png"
+                src="/assets/imgs/visa/visa-card-image4.png"
                 alt="img not found"
               />
             </div>
@@ -164,7 +164,7 @@
                   ><i class="fa-solid fa-arrow-right"></i
                 ></a>
                 <img
-                  src="@/assets/imgs/visa/visa-card-right-icon4.png"
+                  src="/assets/imgs/visa/visa-card-right-icon4.png"
                   alt="img not found"
                 />
               </div>

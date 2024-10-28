@@ -98,12 +98,12 @@
             >
               <span class="footer__widget-item-1-location"
                 ><img
-                  src="@/assets/imgs/footer/footer1-bg-location-img.png"
+                  src="/assets/imgs/footer/footer1-bg-location-img.png"
                   alt="img not found"
               /></span>
               <div class="footer__logo mb-30">
                 <a href="index.html">
-                  <img src="@/assets/imgs/footer/logo.svg" alt="logo not found" />
+                  <img src="/assets/imgs/footer/logo.svg" alt="logo not found" />
                 </a>
               </div>
               <div class="footer__content">
@@ -296,7 +296,7 @@ export default {
 <style scoped>
 /* Gaya untuk footer */
 .footer-bg {
-    background-image: url('@/assets/imgs/footer/footer1-bg-img.png');
+    background-image: url('/assets/imgs/footer/footer1-bg-img.png');
     background-size: cover; /* atau 'contain' */
     background-position: center; /* Sesuaikan sesuai kebutuhan */
 }

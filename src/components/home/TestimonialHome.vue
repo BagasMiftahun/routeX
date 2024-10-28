@@ -6,7 +6,7 @@
         <div class="col-lg-5">
           <div class="testimonial__media" data-tilt>
             <img
-              src="@/assets/imgs/testimonial/testimonial-left-image.png"
+              src="/assets/imgs/testimonial/testimonial-left-image.png"
               alt="img not found"
             />
           </div>
@@ -42,7 +42,7 @@
                   <div class="testimonial__content-text-title">
                     <div class="testimonial__content-text-title-img">
                       <img
-                        src="@/assets/imgs/testimonial/testimonial-title-image.png"
+                        src="/assets/imgs/testimonial/testimonial-title-image.png"
                         alt="img not found"
                       />
                     </div>
@@ -78,7 +78,7 @@
                   <div class="testimonial__content-text-title">
                     <div class="testimonial__content-text-title-img">
                       <img
-                        src="@/assets/imgs/testimonial/testimonial-title-image.png"
+                        src="/assets/imgs/testimonial/testimonial-title-image.png"
                         alt="img not found"
                       />
                     </div>
@@ -114,7 +114,7 @@
                   <div class="testimonial__content-text-title">
                     <div class="testimonial__content-text-title-img">
                       <img
-                        src="@/assets/imgs/testimonial/testimonial-title-image.png"
+                        src="/assets/imgs/testimonial/testimonial-title-image.png"
                         alt="img not found"
                       />
                     </div>

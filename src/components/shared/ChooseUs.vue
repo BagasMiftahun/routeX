@@ -19,14 +19,14 @@
                     data-wow-delay=".4s"
                   >
                     <img
-                      src="@/assets/imgs/choose-us/choose-us-left-image.png"
+                      src="/assets/imgs/choose-us/choose-us-left-image.png"
                       alt="img not found"
                     />
                   </div>
                 </div>
                 <div class="choose-us__media-thumb-circle spin">
                   <img
-                    src="@/assets/imgs/choose-us/choose-us-circle-image.png"
+                    src="/assets/imgs/choose-us/choose-us-circle-image.png"
                     alt="img not found"
                   />
                 </div>
@@ -46,7 +46,7 @@
                   data-wow-delay=".6s"
                 >
                   <img
-                    src="@/assets/imgs/choose-us/choose-us-right-image.png"
+                    src="/assets/imgs/choose-us/choose-us-right-image.png"
                     alt="img not found"
                   />
                 </div>

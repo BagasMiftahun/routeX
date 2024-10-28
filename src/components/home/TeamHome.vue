@@ -79,7 +79,7 @@
                     <div class="latest-item_thumb" data-tilt>
                       <a href="coaching-details.html">
                         <img
-                          src="@/assets/imgs/team/team-image1.png"
+                          src="/assets/imgs/team/team-image1.png"
                           alt="images not found"
                           class="img-fluid"
                         />
@@ -110,7 +110,7 @@
                     <div class="latest-item_thumb" data-tilt>
                       <a href="coaching-details.html">
                         <img
-                          src="@/assets/imgs/team/team-image2.png"
+                          src="/assets/imgs/team/team-image2.png"
                           alt="images not found"
                           class="img-fluid"
                         />
@@ -141,7 +141,7 @@
                     <div class="latest-item_thumb" data-tilt>
                       <a href="coaching-details.html">
                         <img
-                          src="@/assets/imgs/team/team-image3.png"
+                          src="/assets/imgs/team/team-image3.png"
                           alt="images not found"
                           class="img-fluid"
                         />
@@ -172,7 +172,7 @@
                     <div class="latest-item_thumb" data-tilt>
                       <a href="coaching-details.html">
                         <img
-                          src="@/assets/imgs/team/team-image1.png"
+                          src="/assets/imgs/team/team-image1.png"
                           alt="images not found"
                           class="img-fluid"
                         />
@@ -203,7 +203,7 @@
                     <div class="latest-item_thumb" data-tilt>
                       <a href="coaching-details.html">
                         <img
-                          src="@/assets/imgs/team/team-image2.png"
+                          src="/assets/imgs/team/team-image2.png"
                           alt="images not found"
                           class="img-fluid"
                         />
@@ -234,7 +234,7 @@
                     <div class="latest-item_thumb" data-tilt>
                       <a href="coaching-details.html">
                         <img
-                          src="@/assets/imgs/team/team-image3.png"
+                          src="/assets/imgs/team/team-image3.png"
                           alt="images not found"
                           class="img-fluid"
                         />

@@ -9,7 +9,7 @@
           <div class="col-md-4">
             <div class="faq__media" data-tilt>
               <img
-                src="@/assets/imgs/faq/faq-info-image.png"
+                src="/assets/imgs/faq/faq-info-image.png"
                 alt="img not found"
               />
             </div>
@@ -76,7 +76,7 @@
                 data-wow-delay=".6s"
               >
                 <img
-                  src="@/assets/imgs/faq/faq-left-image.png"
+                  src="/assets/imgs/faq/faq-left-image.png"
                   alt="img not found"
                 />
               </div>

@@ -68,7 +68,7 @@
                     <div class="latest-blog__item-media">
                       <a href="blog-details.html">
                         <img
-                          src="@/assets/imgs/blog/letest-blog/blogcard1.png"
+                          src="/assets/imgs/blog/letest-blog/blogcard1.png"
                           alt="images not found"
                           class="img-fluid"
                         />
@@ -116,7 +116,7 @@
                   <div class="latest-blog__item-media">
                     <a href="blog-details.html">
                       <img
-                        src="@/assets/imgs/blog/letest-blog/blogcard2.png"
+                        src="/assets/imgs/blog/letest-blog/blogcard2.png"
                         alt="images not found"
                         class="img-fluid"
                       />
@@ -164,7 +164,7 @@
                   <div class="latest-blog__item-media">
                     <a href="blog-details.html">
                       <img
-                        src="@/assets/imgs/blog/letest-blog/blogcard3.png"
+                        src="/assets/imgs/blog/letest-blog/blogcard3.png"
                         alt="images not found"
                         class="img-fluid"
                       />
@@ -209,7 +209,7 @@
                   <div class="latest-blog__item-media">
                     <a href="blog-details.html">
                       <img
-                        src="@/assets/imgs/blog/letest-blog/blogcard1.png"
+                        src="/assets/imgs/blog/letest-blog/blogcard1.png"
                         alt="images not found"
                         class="img-fluid"
                       />
@@ -256,7 +256,7 @@
                   <div class="latest-blog__item-media">
                     <a href="blog-details.html">
                       <img
-                        src="@/assets/imgs/blog/letest-blog/blogcard2.png"
+                        src="/assets/imgs/blog/letest-blog/blogcard2.png"
                         alt="images not found"
                         class="img-fluid"
                       />
@@ -304,7 +304,7 @@
                   <div class="latest-blog__item-media">
                     <a href="blog-details.html">
                       <img
-                        src="@/assets/imgs/blog/letest-blog/blogcard3.png"
+                        src="/assets/imgs/blog/letest-blog/blogcard3.png"
                         alt="images not found"
                         class="img-fluid"
                       />

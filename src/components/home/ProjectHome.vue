@@ -93,13 +93,15 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img1.png"
+                            src="/assets/imgs/projact/projact-small-img1.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
-                          :style="{ backgroundImage: `url(${projectImage1})` }"
+                          style="
+                            background-image: url(/assets/imgs/projact/projact-image1.png);
+                          "
                         ></div>
                         <div class="bg-overlay"></div>
 
@@ -125,14 +127,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img2.png"
+                            src="/assets/imgs/projact/projact-small-img2.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image2.png);
+                            background-image: url(/assets/imgs/projact/projact-image2.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -159,14 +161,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img3.png"
+                            src="/assets/imgs/projact/projact-small-img3.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image3.png);
+                            background-image: url(/assets/imgs/projact/projact-image3.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -193,14 +195,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img4.png"
+                            src="/assets/imgs/projact/projact-small-img4.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image4.png);
+                            background-image: url(/assets/imgs/projact/projact-image4.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -227,14 +229,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img5.png"
+                            src="/assets/imgs/projact/projact-small-img5.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image5.png);
+                            background-image: url(/assets/imgs/projact/projact-image1.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -267,7 +269,7 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img1.png"
+                            src="/assets/imgs/projact/projact-small-img1.png"
                             alt="img not found"
                           />
                         </div>
@@ -299,14 +301,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img2.png"
+                            src="/assets/imgs/projact/projact-small-img2.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image2.png);
+                            background-image: url(/assets/imgs/projact/projact-image2.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -333,14 +335,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img3.png"
+                            src="/assets/imgs/projact/projact-small-img3.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image3.png);
+                            background-image: url(/assets/imgs/projact/projact-image3.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -366,14 +368,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img4.png"
+                            src="/assets/imgs/projact/projact-small-img4.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image4.png);
+                            background-image: url(/assets/imgs/projact/projact-image4.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -400,14 +402,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img5.png"
+                            src="/assets/imgs/projact/projact-small-img5.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image5.png);
+                            background-image: url(/assets/imgs/projact/projact-image5.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -440,7 +442,7 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img1.png"
+                            src="/assets/imgs/projact/projact-small-img1.png"
                             alt="img not found"
                           />
                         </div>
@@ -472,14 +474,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img2.png"
+                            src="/assets/imgs/projact/projact-small-img2.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image2.png);
+                            background-image: url(/assets/imgs/projact/projact-image2.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -506,14 +508,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img3.png"
+                            src="/assets/imgs/projact/projact-small-img3.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image3.png);
+                            background-image: url(/assets/imgs/projact/projact-image3.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -540,14 +542,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img4.png"
+                            src="/assets/imgs/projact/projact-small-img4.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url(@/assets/imgs/projact/projact-image4.png);
+                            background-image: url(/assets/imgs/projact/projact-image4.png);
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -574,14 +576,14 @@
                       >
                         <div class="project-small-img">
                           <img
-                            src="@/assets/imgs/projact/projact-small-img5.png"
+                            src="/assets/imgs/projact/projact-small-img5.png"
                             alt="img not found"
                           />
                         </div>
                         <div
                           class="project-three__single-img"
                           style="
-                            background-image: url('@/assets/imgs/projact/projact-image1.png');
+                            background-image: url('/assets/imgs/projact/projact-image1.png');
                           "
                         ></div>
                         <div class="bg-overlay"></div>
@@ -618,7 +620,7 @@
                 >
                   <div class="project-small-img">
                     <img
-                      src="@/assets/imgs/projact/projact-small-img1.png"
+                      src="/assets/imgs/projact/projact-small-img1.png"
                       alt="img not found"
                     />
                   </div>
@@ -654,11 +656,6 @@
 <script>
 export default {
   name: "ProjectHome",
-  data() {
-    return {
-      projectImage1: "@/assets/imgs/projact/projact-image1.png",
-    }
-  }
 };
 </script>
 

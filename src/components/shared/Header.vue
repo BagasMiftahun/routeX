@@ -9,7 +9,7 @@
                 <div class="header__logo">
                   <router-link to="/">
                     <div class="logo">
-                      <img src="@/assets/imgs/logo/logo.svg" alt="logo not found" />
+                      <img src="/assets/imgs/logo/logo.svg" alt="logo not found" />
                     </div>
                   </router-link>
                 </div>

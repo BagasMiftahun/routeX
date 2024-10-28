@@ -7,7 +7,7 @@
           <div class="banner-home__all-shape">
             <div class="left-tower upDown-top">
               <img
-                src="@/assets/imgs/banner-1/banner-left-towor.png"
+                src="/assets/imgs/banner-1/banner-left-towor.png"
                 alt="img not found"
               />
             </div>
@@ -107,19 +107,19 @@
                 <div class="ball-shape upDown">
                   <img
                     class="img-fluid"
-                    src="@/assets/imgs/banner-1/banner-bg-ball-shape.png"
+                    src="/assets/imgs/banner-1/banner-bg-ball-shape.png"
                     alt="img not found"
                   />
                 </div>
                 <div class="man-img leftRight">
                   <img
-                    src="@/assets/imgs/banner-1/banner-man-image.png"
+                    src="/assets/imgs/banner-1/banner-man-image.png"
                     alt="img not found"
                   />
                 </div>
                 <div class="right-tower upDown-bottom">
                   <img
-                    src="@/assets/imgs/banner-1/banner-right-towor.png"
+                    src="/assets/imgs/banner-1/banner-right-towor.png"
                     alt="img not found"
                   />
                 </div>

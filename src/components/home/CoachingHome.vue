@@ -6,7 +6,7 @@
     >
       <div
         class="coaching__bg-img"
-        data-background="@/assets/imgs/home-1/coaching/coaching-bg-img.png"
+        data-background="/assets/imgs/home-1/coaching/coaching-bg-img.png"
       ></div>
       <div class="container">
         <div class="row">
@@ -105,7 +105,7 @@
             <div class="coaching__media">
               <div class="coaching__media-thumb" data-tilt>
                 <img
-                  src="@/assets/imgs/home-1/coaching/coaching-right-image.png"
+                  src="/assets/imgs/home-1/coaching/coaching-right-image.png"
                   alt="img not found"
                 />
               </div>

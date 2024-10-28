@@ -64,7 +64,7 @@
           >
             <div class="adventure__item-icon mb-20">
               <img
-                src="@/assets/imgs/home-1/adventure/adventure-img1.png"
+                src="/assets/imgs/home-1/adventure/adventure-img1.png"
                 alt="img not found"
               />
             </div>
@@ -91,7 +91,7 @@
           >
             <div class="adventure__item-icon mb-20">
               <img
-                src="@/assets/imgs/home-1/adventure/adventure-img2.png"
+                src="/assets/imgs/home-1/adventure/adventure-img2.png"
                 alt="img not found"
               />
             </div>
@@ -118,7 +118,7 @@
           >
             <div class="adventure__item-icon mb-20">
               <img
-                src="@/assets/imgs/home-1/adventure/adventure-img3.png"
+                src="/assets/imgs/home-1/adventure/adventure-img3.png"
                 alt="img not found"
               />
             </div>
@@ -145,7 +145,7 @@
           >
             <div class="adventure__item-icon mb-20">
               <img
-                src="@/assets/imgs/home-1/adventure/adventure-img4.png"
+                src="/assets/imgs/home-1/adventure/adventure-img4.png"
                 alt="img not found"
               />
             </div>
