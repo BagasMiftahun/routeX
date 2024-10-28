@@ -5,6 +5,7 @@
   <Faq />
   <Brand />
   <ContactAbout />
+  <CountriesAbout />
 </template>
 
 <script>
@@ -12,8 +13,9 @@ import Banner from '../components/shared/Banner.vue';
 import ChooseUs from '../components/shared/ChooseUs.vue';
 import Process from '../components/shared/Process.vue';
 import Faq from '../components/shared/Faq.vue';
-import Brand from '../components/home/BrandHome.vue';
+import Brand from '../components/shared/Brand.vue';
 import ContactAbout from '../components/aboutus/ContactAbout.vue';
+import CountriesAbout from '../components/aboutus/CountriesAbout.vue';
 
 export default {
   name: 'AboutUs',
@@ -23,7 +25,8 @@ export default {
     Process,
     Faq,
     Brand,
-    ContactAbout
+    ContactAbout,
+    CountriesAbout
   },
 };
 </script>

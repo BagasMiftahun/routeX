@@ -8,7 +8,7 @@
         <div class="col-lg-6">
           <div class="contact-us__widget mb-30" data-tilt>
             <img
-              src="/assets/imgs/concact/contact-left-img.png"
+              src="/assets/imgs/concact/contact-left-image.png"
               alt="img not found"
             />
           </div>
