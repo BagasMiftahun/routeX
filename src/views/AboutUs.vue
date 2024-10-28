@@ -4,7 +4,7 @@
   <Process />
   <Faq />
   <Brand />
-  <ContactAbout />
+  <Contact />
   <CountriesAbout />
 </template>
 
@@ -14,7 +14,7 @@ import ChooseUs from '../components/shared/ChooseUs.vue';
 import Process from '../components/shared/Process.vue';
 import Faq from '../components/shared/Faq.vue';
 import Brand from '../components/shared/Brand.vue';
-import ContactAbout from '../components/aboutus/ContactAbout.vue';
+import Contact from '../components/shared/Contact.vue';
 import CountriesAbout from '../components/aboutus/CountriesAbout.vue';
 
 export default {
@@ -25,7 +25,7 @@ export default {
     Process,
     Faq,
     Brand,
-    ContactAbout,
+    Contact,
     CountriesAbout
   },
 };

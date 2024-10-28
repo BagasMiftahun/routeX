@@ -156,7 +156,7 @@
 
 <script>
 export default {
-  name: "ContactAbout",
+  name: "Contact",
 };
 </script>
 
